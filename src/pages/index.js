@@ -66,7 +66,7 @@ export default function Home() {
 
             <section className="largeitem">
               <h4 id="contact" class="subheading">Get in touch</h4>
-              <h5 className="minisubheading">Phone</h5>
+              <h5 className="minisubheading">Telephone</h5>
               <p className="info">
                 07737048009
           </p>
