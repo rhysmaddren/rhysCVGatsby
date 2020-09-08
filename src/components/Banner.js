@@ -5,3 +5,5 @@ const Banner = () => <div class="bannerimg">
         <div class="fadein">Hi, I'm Rhys</div>
     </div>
 </div>
+
+export default Banner
