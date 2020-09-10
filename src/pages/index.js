@@ -1,5 +1,6 @@
 import React from "react"
 import Layout from "../components/Layout"
+import Resume from "../assets/resume.jpg"
 
 const Index = () => {
   return (
