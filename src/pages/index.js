@@ -1,6 +1,8 @@
 import React from "react"
 import Layout from "../components/Layout"
 import Resume from "../assets/resume.jpg"
+import Esports from "../assets/rhysmaddrenesports.jpg"
+import Treehouse from "../assets/treehouse.jpg"
 
 const Index = () => {
   return (
@@ -19,7 +21,7 @@ const Index = () => {
         </p>
         <a href="https://www.yorkpress.co.uk/news/15686616.first-of-its-kind-gaming-comp-held-at-york-uni/"
           target="_blank" rel="noreferrer">
-          <img src="images/rhysmaddrenesports.jpg" alt="Rhys Maddren at esports event" className="linkimage esportimage" />
+          <img src={Esports} alt="Rhys Maddren at esports event" className="linkimage esportimage" />
         </a>
       </section>
 
@@ -38,12 +40,12 @@ const Index = () => {
         <ul className="imgcontainer">
           <li className="aboutimg">
             <a href="https://teamtreehouse.com/rhysmaddren" target="_blank" rel="noreferrer">
-              <img src="images/treehouse.jpg" alt="Treehouse logo" class="linkimage" />
+              <img src={Treehouse} alt="Treehouse logo" class="linkimage" />
             </a>
           </li>
           <li className="aboutimg">
             <a href="RhysMaddrenCV.pdf" target="_blank" rel="noreferrer">
-              <img src="images/resume.jpg" alt="Rhys Maddren's CV" className="linkimage" />
+              <img src={Resume} alt="Rhys Maddren's CV" className="linkimage" />
             </a>
           </li>
         </ul>
@@ -75,7 +77,7 @@ const Index = () => {
           </p>
           <ul className="imgcontainer">
             <li>
-              <a href="https://www.linkedin.com/in/rhys-maddren-133a7b151/" target="_blank" rel="noopener">
+              <a href="https://www.linkedin.com/in/rhys-maddren-133a7b151/" target="_blank" rel="noreferrer">
                 <i className="fab fa-3x fa-linkedin-in"></i>
               </a>
             </li>

@@ -1,15 +1,14 @@
 
-/** @font-face {
+@font-face {
     font-family: poppins;
-    src: url(Poppins/Poppins-Regular.woff);
+    src: url(../fonts/Poppins-Regular.woff);
   }
   
-  @font-face {
+@font-face {
     font-family: poppinslight;
-    src: url(Poppins/Poppins-Light.woff);
+    src: url(../fonts/Poppins-Light.woff);
   }
 
-**/
   
   * {
     box-sizing: border-box;
