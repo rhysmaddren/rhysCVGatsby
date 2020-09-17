@@ -3,6 +3,16 @@ import Layout from "../components/Layout"
 import Resume from "../assets/resume.jpg"
 import Esports from "../assets/rhysmaddrenesports.jpg"
 import Treehouse from "../assets/treehouse.jpg"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {
+  faWrench,
+  faEnvelope,
+
+
+
+} from '@fortawesome/free-solid-svg-icons'
+
+
 
 const Index = () => {
   return (
@@ -56,7 +66,7 @@ const Index = () => {
           <p class="info">Work in progress</p>
           <div className="imgcontainer">
             <a href="https://github.com/rhysmaddren?tab=repositories" target="_blank" rel="noreferrer">
-              <i className="fas fa-3x fa-wrench"></i>
+              <FontAwesomeIcon icon={faWrench} size="3x" />
             </a>
           </div>
           <p className="info">
@@ -78,12 +88,12 @@ const Index = () => {
           <ul className="imgcontainer">
             <li>
               <a href="https://www.linkedin.com/in/rhys-maddren-133a7b151/" target="_blank" rel="noreferrer">
-                <i className="fab fa-3x fa-linkedin-in"></i>
+
               </a>
             </li>
             <li>
               <a href="mailto:rhysmaddren@hotmail.co.uk">
-                <i className="fas fa-3x fa-envelope-square"></i>
+                <FontAwesomeIcon icon={faEnvelope} size="3x" />
 
               </a>
             </li>
