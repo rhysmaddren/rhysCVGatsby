@@ -7,11 +7,12 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
   faWrench,
   faEnvelope,
-
-
-
 } from '@fortawesome/free-solid-svg-icons'
+import {
+  faLinkedin,
+  faGitSquare,
 
+} from '@fortawesome/free-brands-svg-icons'
 
 
 const Index = () => {
@@ -88,7 +89,7 @@ const Index = () => {
           <ul className="imgcontainer">
             <li>
               <a href="https://www.linkedin.com/in/rhys-maddren-133a7b151/" target="_blank" rel="noreferrer">
-
+                <FontAwesomeIcon icon={faLinkedin} size="3x" />
               </a>
             </li>
             <li>
@@ -99,7 +100,7 @@ const Index = () => {
             </li>
             <li>
               <a href="https://github.com/rhysmaddren" target="_blank" rel="noreferrer">
-                <i className="fab fa-3x fa-github-square"></i>
+                <FontAwesomeIcon icon={faGitSquare} size="3x" />
               </a>
             </li>
           </ul>
