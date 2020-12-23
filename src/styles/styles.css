@@ -245,8 +245,8 @@
   }
   
   li a img,
-  li a i,
-  div a i {
+  li a > *,
+  div a >* {
     flex: 1 1 auto;
     max-width: 150px;
     border-radius: 20%;

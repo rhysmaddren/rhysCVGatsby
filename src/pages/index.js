@@ -93,7 +93,7 @@ const Index = () => {
             Get in touch
           </h4>
           <h5 className="minisubheading">Telephone</h5>
-          <p className="info">123</p>
+          <p className="info"></p>
           <h6 className="minisubheading">Email</h6>
           <p className="info">rhysmaddren@hotmail.co.uk</p>
           <ul className="imgcontainer">
